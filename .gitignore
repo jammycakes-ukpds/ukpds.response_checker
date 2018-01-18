@@ -1,2 +1,8 @@
 .DS_Store
 report.html
+.vscode
+
+__pycache__
+*.py[cdo]
+.venv
+results.txt

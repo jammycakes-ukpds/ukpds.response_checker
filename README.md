@@ -4,6 +4,14 @@ Response Checker is a Go script designed to retrieve a list of working routes an
 ### Requirements
 Response Checker requires [Go](https://golang.org/doc/install) to be installed.
 
+The Python version requires Python 3 and the package(s) listed in requirements.txt.
+It is recommended that you run the script in a virtual environment:
+
+    virtualenv -p python3 .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+    python3 main.py
+
 ### Usage
 1. Set up this repository
 ```kernal
